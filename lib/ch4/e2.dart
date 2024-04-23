@@ -6,7 +6,7 @@ void main (){
   List<num> expenses = [];
 
   for (int i = 1; i <= number; i++){
-    stdout.writeln('Enter expense ${i}');
+    stdout.writeln('Enter expense $i');
     var expense = num.parse(stdin.readLineSync()!);
     expenses.add(expense);
   }

@@ -10,7 +10,7 @@ void main() {
 }
 
 void vowelChecker() {
-  print('Enter a character');
+  stdout.writeln('Enter a character');
   String char = stdin.readLineSync()!;
   if (char.length == 1) {
     "aeiou".contains(char)

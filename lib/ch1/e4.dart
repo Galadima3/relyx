@@ -2,9 +2,9 @@
 import 'dart:io';
 
 void main (){
-  print('Enter dividend number');
+  stdout.writeln('Enter dividend number');
   int dividend = int.parse(stdin.readLineSync()!);
-  print('Enter divisor number');
+  stdout.writeln('Enter divisor number');
   int divisor = int.parse(stdin.readLineSync()!);
 
   int quotient = dividend ~/ divisor;
