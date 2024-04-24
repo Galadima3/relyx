@@ -5,5 +5,7 @@ void main() {
   }
   print("\n");
   Set<String> fruits = {'Oranges', 'Bananas', 'Pineapples', 'Apples'};
-  fruits.forEach((element) => print(element));
+  for (var element in fruits) {
+    print(element);
+  }
 }
